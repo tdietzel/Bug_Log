@@ -26,7 +26,7 @@
 # <p align="center">Solved</p>
 ---
 
-## ▔`\✔️/`▔|'-,🐛 Jest #1| Solved 3/22/24
+## |▔`\✔️/`▔|'-,🐛 Jest #1| Solved 3/22/24
 ### **<p align="center">`Testing Functions Not Recognized by Jest`</p>**
 #### ⚠️| **`Error Message`** | describe() and test() not being recognized when writing tests.
 #### ✅| **`Solution`** | Install and save in your dev environment Jest:
