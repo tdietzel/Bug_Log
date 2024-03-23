@@ -13,8 +13,8 @@
 # <p align="center">Open</p>
 ---
 
-## |▔`⭕🚧`▔|'-,🐛 Next.js #2| Deployment Issue with GitHub Pages | Opened 3/22/24
-#### **<p align="center">`When attempting to deploy the site on GitHub Pages, unexpected behavior occurs`</p>**
+## |▔`⭕🚧`▔|'-,🐛 Next.js #2| Opened 3/22/24
+### **<p align="center">`When attempting to deploy the site on GitHub Pages, unexpected behavior occurs`</p>**
 - **Expected Outcome:** Publish successfully on GH-Pages.
 - **Actual Outcome:** Deployment process halts at installing dependencies, throwing the error: "npm ERR! Cannot read property 'next' of undefined"
 - **Tried:**
@@ -26,7 +26,8 @@
 # <p align="center">Solved</p>
 ---
 
-## ▔`\✔️/`▔|'-,🐛 Jest #1| Testing Functions Not Recognized by Jest | Solved 3/22/24
+## ▔`\✔️/`▔|'-,🐛 Jest #1| Solved 3/22/24
+### **<p align="center">`Testing Functions Not Recognized by Jest`</p>**
 #### ⚠️| **`Error Message`** | describe() and test() not being recognized when writing tests.
 #### ✅| **`Solution`** | Install and save in your dev environment Jest:
 
@@ -34,8 +35,8 @@
 npm i --save-dev @types/jest
 ```
 
-## |▔`\✔️/`▔|'-,🐛 Next.js #1| Importing Component with useState | Solved 3/22/24
-#### **<p align="center">`Importing Component with useState Results in Server Component Error`</p>**
+## |▔`\✔️/`▔|'-,🐛 Next.js #1| Solved 3/22/24
+### **<p align="center">`Importing Component with useState Results in Server Component Error`</p>**
 #### ⚠️| `Error Message` | You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
 #### ✅| `Solution` | Add "use client" at the top of the file to signal that it's a client component:
 
