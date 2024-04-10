@@ -43,3 +43,12 @@ npm i --save-dev @types/jest
 ```
 'use client' // This signals that it's a client & not a server component
 ```
+
+## |▔`\✔️/`▔|'-,🐛 MongoDB #1| Solved 4/10/24
+### **<p align="center">`Authentication failed: env error`</p>**
+#### ⚠️| `Error Message` | ok: 0, errmsg: 'bad auth : authentication failed', code: 8000, codeName: 'AtlasError'}
+#### ✅| `Solution` | add require('dotenv').config() to top of file & install dotenv
+
+```
+npm install dotenv --save
+```
